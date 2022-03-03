@@ -1,0 +1,52 @@
+:root {
+	/* Font Family */
+	--basic-font-family: 'Arial', sans-serif;
+
+	/* Colors */
+	--black: #000000;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page {
+  height: 100%;
+}
+
+.page__body {
+  min-width: 320px;
+  min-height: 100%;
+  margin: 0;
+  font-family: var(--basic-font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--black);
+}
+
+.wrapper {
+	max-width: 1400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.page-main-header-_wrapper {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.page-main-header__title {
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+}
